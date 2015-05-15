@@ -16,7 +16,7 @@ Makes a list of all snapshots, kernels, initramfs present on the filesystem and 
 #### How to use it :
 
 1. Add lines to /etc/default/grub as needed, defaults listed as examples:
-2. 
+
 	* submenuname = name menu appear in grub ( e.g: GRUB_BTRFS_SUBMENUNAME="ArchLinux Snapshots" )
 
 	* prefixentry = add a name ahead your snapshots entries ( e.g: GRUB_BTRFS_PREFIXENTRY="Snapshot" )
